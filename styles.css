@@ -1,0 +1,624 @@
+body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    background: #2B2B2B;
+}
+header {
+    display: flex;
+    background-color: rgba(26,30,31,1);
+    position: fixed;
+    width: 100%;
+    height: 6.563vw;
+    transition: background-color 0.3s ease;
+    z-index: 1;
+}
+.header {
+    max-width: 76.563vw;
+    width: 100%;
+    display: flex;
+    margin: 0 auto 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.homeBTN{
+width: 14.219vw;
+height: 3.125vw;
+background: transparent;
+border: 0;
+display: flex;
+flex-direction: row;
+margin: auto 0 auto 0;
+justify-content: center;
+}
+.header div {
+width: 31.25vw;
+margin: auto 0 auto 0;
+display: flex;
+justify-content: space-between;
+}
+.header div a {
+text-decoration: none;
+transition: color 0.3s ease;
+line-height: 2.031vw;
+color: #f4f4f4;
+font-size: 1.172vw;
+}
+.header div a:hover {
+color: #00A3E0;
+}
+.homeBTN img {
+width: 3.516vw;
+height: 3.906vw;
+object-fit: contain;
+}
+.homeBTN h2 {
+color: #f4f4f4;
+font-size: 1.563vw;
+}
+.menu-btn {
+    display: none;
+}
+.bar {
+    width: 2.031vw;
+    height: 0.234vw;
+    background-color: red;
+    margin: 0.234vw 0;
+}
+.part1 {
+    max-width: 76.563vw;
+    width: 100%;
+    align-self: center;
+    padding-top: 3.281vw;
+    padding-bottom: 2.344vw;
+}
+.part1 div {
+    display: flex;
+    height: 27.5vw;
+    align-items: center;
+    margin-top: 3.281vw;
+}
+.part1 h3{
+    font-size: 3.281vw;
+    font-weight: bold;
+    line-height: 1.6em;
+    color:#f4f4f4;
+}
+.part1 h3 span {
+    font-size: 2.656vw;
+    font-weight: bold;
+    display: block;
+}
+.mainImg {
+width: 100%;
+height: 27.5vw;
+margin-top: 6.563vw;
+position: absolute;
+z-index: -10;
+
+}
+.part1 p {
+color: #f4f4f4;
+font-size: 2.188vw;
+line-height: 1.6em;
+letter-spacing: 0.07cap;
+font: oblique;
+}
+.part1 a {
+text-decoration: none;
+transition: color 0.3s ease;
+margin-top: 3.281vw;
+font-size: 1.563vw;
+color: #00A3E0;
+font-weight: 800;
+margin-bottom: 1.563vw;
+}
+.part1 a:hover {
+color: gray;
+}
+.courses {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: rgba(26,30,31,1);
+    padding-bottom: 2.344vw;
+}
+.courses h1 {
+    margin-top: 2.656vw;
+    font-size: 1.875vw;
+    color: #DBDBDB;
+    max-width: 76.563vw;
+    width: 100%;
+    letter-spacing:0.1cap;
+    font-weight: 100;
+    align-self: center;
+}
+.course-container {
+    display: flex;
+    max-width: 76.563vw;
+    margin-top: 3.672vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.course-card {
+    border: 0.078vw solid gray;
+    width: 23.438vw;
+    flex-direction: column;
+    height: 32.344vw;
+    margin-top: 1.563vw;
+    border-radius: 0.469vw;
+}
+.course-card h2{
+    font-size: 1.406vw;
+    color: #f4f4f4;
+    vertical-align: baseline;
+    float: left;
+    max-width: 26.25vw;
+    width: 100%;
+    margin-left: 1.563vw;
+    font-weight: 400;
+    letter-spacing: 0.07cap;
+    line-height: 1.563vw;
+}
+.course-card h3{
+    font-size: 1.094vw;
+    color: #f4f4f4;
+    vertical-align: baseline;
+    float: left;
+    width: 100%;
+    margin-left: 1.563vw;
+    font-weight: 100;
+    letter-spacing: 0.07cap;
+}
+.course-card img{
+    width: 23.438vw;
+    height: 11.719vw;
+    border-radius: 0.469vw 0.469vw 0 0;
+}
+.course-card div {
+    display: flex;
+    max-width: 21.875vw;
+    margin-left: 1.563vw;
+    margin-top: 17.188vw;
+    flex-direction: row;
+    align-items: center;
+}
+.course-card div p {
+    color: #00A3E0;
+    font-size: 1.094vw;
+}
+.course-card a {
+  color: #00A3E0;
+  font-size: 1.094vw;
+  transition: 0.5s ease;
+  text-decoration: none;
+  margin-left: 0.781vw;
+}
+.course-card a:hover {
+    color: blue
+}
+
+
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 2.656vw;
+    height: 28.438vw;
+    align-content: center;
+}
+
+.slider-container h1 {
+    font-size: 1.875vw;
+    color: rgb(244, 244, 244);
+    font-weight: 100;
+    max-width: 76.563vw;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.slider {
+    max-width: 76.563vw;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    flex-direction: row;
+}
+
+.slides {
+    display: flex;
+    width: 300%;
+    height: 17.5vw;
+    margin-top: 2.422vw;
+    align-items: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    flex: 0 0 33.33%;
+    box-sizing: border-box;
+    padding: 0 0.781vw;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.slide img {
+    width: 19.531vw;
+    height: 6.25vw;
+    margin: 0 auto;
+}
+
+.controls {
+    position: absolute;
+    top: 45%;
+    width: 80%;
+     margin: 0 10% 0 10%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.prev, .next {
+    width: 1.406vw;
+    height: 2.734vw;
+    font-size: 2.734vw;
+    color: lightgray;
+    cursor: pointer;
+}
+.prev:hover, .next:hover {
+    color: darkgray;
+}
+
+.QA {
+    display: flex;
+  width: 100%;
+  background-color: #161616;
+  flex-direction: column;
+}
+
+.QAtitle {
+    max-width: 76.563vw;
+    width: 100%;
+    height: 2.266vw;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    margin-top: 5.859vw;
+    padding: 2.344vw 3.125vw;
+}
+
+.QAtitle h1 {
+    font-size: 1.875vw;
+    letter-spacing: 0.05cap;
+    font-weight: 100;
+    color: #f4f4f4;
+}
+
+.QAtitle a {
+    font-weight: 600;
+    font-size: 1.563vw;
+    text-decoration: none;
+    color: #00AEF3;
+    transition: color 0.5s ease ;
+}
+.QAtitle a:hover {
+    color: gray;
+}
+
+.faq {
+    max-width: 76.563vw;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    background-color: transparent;
+    flex-direction: column;
+    padding-bottom: 4.063vw;
+}
+.question {
+    display: flex;
+    width: 100%;
+    height: 6.25vw;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.question h1 {
+    font-size: 1.406vw;
+    color: #f4f4f4;
+}
+.question p {
+    font-size: 1.953vw;
+    color: #f4f4f4;
+    transform: rotate(180deg);
+}
+.answer {
+    display: none;
+    font-size: 1.094vw;
+    color: #f4f4f4;
+}
+
+hr {
+    border: 0.008vw solid lightgray;
+    margin: 1.172vw 0;
+    opacity: 0.3;
+}
+
+.qaResponsive{
+    display: none;
+}
+
+footer {
+    width: 100%;
+    background-color:#202020;
+    height: 17.891vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div {
+    max-width: 76.563vw;
+    width: 100%;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.781vw;
+    align-items: center;
+}
+footer section {
+    width: 6.875vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tbcFooter {
+    width: 8.281vw;
+    height: 2.344vw;
+}
+
+.footerIcon {
+    width: 3.047vw;
+    height: 3.047vw;
+    cursor: pointer;
+}
+
+footer h2{
+    font-size: 1.094vw;
+    color: #f4f4f4;
+    line-height: 1.6em;
+    font-weight: 100;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.094vw;
+    line-height: 1.6em;
+    font-weight: 100;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: gray;
+}
+
+footer button {
+    cursor: pointer;
+    width: 12.656vw;
+    height: 3.047vw;
+    background-color: #00AEF3;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.625vw;
+    transition: background 0.3s ease;
+}
+
+footer button p {
+    color: #FFFFFF;
+    font-size: 1.25vw;
+    transition: color 0.3s ease;
+}
+footer button:hover {
+  background-color: lightgray;
+}
+footer button:hover p{
+    color: black;
+}
+
+.footerResponsive{
+    display: none;
+}
+
+@media only screen and (max-width: 980px) {
+    body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+    .menu-btn {
+        display: flex;
+        cursor: pointer;
+        width: 2.5vw;
+        height: 2.188vw;
+        background-color: red;
+        align-self: center;
+    }
+    .header{
+        padding: 0 1.563vw;
+    }
+    .header div {
+        display: none;
+    
+    }
+        .part1 div {
+            margin: 3.281vw 2.344vw 0 2.344vw;
+        }
+        .part1 p {
+        margin-left: 2.344vw;
+        margin-right: 2.344vw;
+        }
+        .part1 a {
+        margin: 0 2.344vw 1.563vw 2.344vw;
+        }
+        
+        .courses h1 {
+            width: 80%;
+            display: flex;
+            align-self: center;
+        }
+        .course-container{
+            display: flex;
+            justify-content: center;
+        }
+        
+        .course-card {
+            display: flex;
+            width: 80%;
+        }
+        .course-card h2{
+            font-size: 1.953vw;
+        }
+        .course-card h3{
+            font-size: 1.563vw;
+        }
+        .course-card img{
+            width: 100%;
+            height: 50%;
+        }
+        .course-card div {
+            margin-top: auto;
+        }
+        .slide {
+            flex-direction: column;
+        }   
+        .slide img {
+            width: 19.531vw;
+            height: 6.25vw;
+            margin: 0 auto;
+        }
+        .controls {
+            display: none;
+        }
+        .QA {
+          padding-bottom: 2.344vw;
+          display: flex;
+          flex-direction: column;
+        } 
+        .QAtitle h1 {
+            font-size: 3.906vw;
+        }
+        .QAtitle a {
+            display: none;
+        }
+        .faq{
+            margin-top: 1.563vw;
+        }
+        .question {
+            margin-top: 2.344vw;
+            margin-bottom: 2.344vw;
+        }
+        .question h1 {
+            font-size: 2.734vw;
+    
+        }
+        .question p {
+            font-size: 3.906vw;
+        }
+        .qaResponsive{
+            display: block;
+            font-weight: 600;
+            font-size: 3.125vw;
+            text-decoration: none;
+            color: #00AEF3;
+            align-self: center;
+        }
+
+        footer{
+            display: none;
+        }
+
+        .footerResponsive {
+            width: 100%;
+            background-color:#202020;
+            height: 17.891vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-bottom: 2vw;
+        }
+        
+        .footerResponsive div {
+            max-width: 76.563vw;
+            width: 100%;
+            align-self: center;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 0.781vw;
+            align-items: center;
+            margin-top: 3vw;
+        }
+        .footerResponsive section {
+            width: 6.875vw;
+            display: flex;
+            justify-content: space-between;
+        }
+        .tbcFooter img {
+            width: 8.281vw;
+            height: 2.344vw;
+        }
+        
+        .footerResponsive h2{
+            font-size: 1.094vw;
+            max-width: 76.563vw;
+            width: 100%;
+            align-self: center;
+            display: flex;
+            color: #f4f4f4;
+            line-height: 1.6em;
+            font-weight: 100;
+        }
+        
+        .footerResponsive a {
+            max-width: 76.563vw;
+            width: 100%;
+            align-self: center;
+            display: flex;
+            text-decoration: none;
+            color: #FFFFFF;
+            font-size: 1.094vw;
+            line-height: 1.6em;
+            font-weight: 100;
+            transition: color 0.3s ease;
+            margin-top: 3vw;
+        }
+        
+        .footerResponsive button {
+            cursor: pointer;
+            width: 12.656vw;
+            height: 3.047vw;
+            background-color: #00AEF3;
+            border: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 0.625vw;
+            transition: background 0.3s ease;
+        }
+        
+        .footerResponsive button p {
+            color: #FFFFFF;
+            font-size: 1.25vw;
+            transition: color 0.3s ease;
+        }
+        .hide-header {
+            transform: translateY(-100%);
+        }
+}
